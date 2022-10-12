@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body{
@@ -20,9 +21,15 @@ h2{
     text-align: center;
     padding: 5px 0;
     margin-bottom: 45px;
+    border: 5px solid rgba(33, 104, 5, 0);
 }
 
-header .headerImg{
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header a{
     display: flex;
     justify-content: center;
 }
@@ -62,3 +69,22 @@ header .headerImg img{
     display: flex;
     justify-content: center;
 }
+
+/* Seasons section */
+
+.videoWrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+
+.seasonLinks{
+    width: 20%;
+}
+
+.active{
+    border: 5px solid rgb(33, 104, 5);
+}
+
+
+
